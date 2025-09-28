@@ -32,10 +32,15 @@ Write-Output "Solution file: $SolutionFile"
 
 # Find MSBuild
 Write-Output "Searching MSBuild..."
-$MSRoots = @("C:\Program Files*\MSBuild", "C:\Program Files*\Microsoft Visual Studio")
-$MSBuild = Get-ChildItem $MSRoots -Recurse -Include MSBuild.exe -ErrorAction Ignore | ForEach-Object { $_.FullName} | Select-Object -First 1
-if ($MSBuild -eq $null) {
-    Exit-Script "MSBuild not found"
+$PreferredMSBuild = "C:\Program Files\Microsoft Visual Studio\18\Insiders\MSBuild\Current\Bin\amd64\MSBuild.exe"
+if (Test-Path $PreferredMSBuild) {
+    $MSBuild = $PreferredMSBuild
+} else {
+    $MSRoots = @("C:\Program Files*\MSBuild", "C:\Program Files*\Microsoft Visual Studio")
+    $MSBuild = Get-ChildItem $MSRoots -Recurse -Include MSBuild.exe -ErrorAction Ignore | ForEach-Object { $_.FullName} | Select-Object -First 1
+    if ($MSBuild -eq $null) {
+        Exit-Script "MSBuild not found"
+    }
 }
 Write-Output "MSBuild: $MSBuild"
 

@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(dir:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(Test-Path \"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\Bin\\amd64\\MSBuild.exe\")",
+      "Bash(powershell:*)"
     ],
     "deny": [],
     "ask": []
