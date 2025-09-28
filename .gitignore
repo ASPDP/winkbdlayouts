@@ -1,4 +1,4 @@
-!nonproject temp kbds/
+!"nonproject temp kbds"
 tmp
 arm64
 x64
@@ -29,3 +29,4 @@ win64
 *.gz
 *.tgz
 *.xz
+!"nonproject temp kbds"
