@@ -20,8 +20,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbdreverse", "tools\kbdreve
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtools", "tools\libtools.vcxproj", "{29BD96E0-B6C5-42A0-B683-FD9740810600}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbdusapple", "keyboards\kbdusapple\kbdusapple.vcxproj", "{04AD1307-1C07-4848-93FF-76005FDCC59A}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbduskrugerv2", "keyboards\kbduskrugerv2\kbduskrugerv2.vcxproj", "{BAB6725B-CA6D-42F6-9197-9CC91C6E951C}"
 EndProject
 Global
@@ -82,18 +80,6 @@ Global
 		{29BD96E0-B6C5-42A0-B683-FD9740810600}.Release|x64.Build.0 = Release|x64
 		{29BD96E0-B6C5-42A0-B683-FD9740810600}.Release|x86.ActiveCfg = Release|Win32
 		{29BD96E0-B6C5-42A0-B683-FD9740810600}.Release|x86.Build.0 = Release|Win32
-		{04AD1307-1C07-4848-93FF-76005FDCC59A}.Debug|arm64.ActiveCfg = Debug|arm64
-		{04AD1307-1C07-4848-93FF-76005FDCC59A}.Debug|arm64.Build.0 = Debug|arm64
-		{04AD1307-1C07-4848-93FF-76005FDCC59A}.Debug|x64.ActiveCfg = Debug|x64
-		{04AD1307-1C07-4848-93FF-76005FDCC59A}.Debug|x64.Build.0 = Debug|x64
-		{04AD1307-1C07-4848-93FF-76005FDCC59A}.Debug|x86.ActiveCfg = Debug|Win32
-		{04AD1307-1C07-4848-93FF-76005FDCC59A}.Debug|x86.Build.0 = Debug|Win32
-		{04AD1307-1C07-4848-93FF-76005FDCC59A}.Release|arm64.ActiveCfg = Release|arm64
-		{04AD1307-1C07-4848-93FF-76005FDCC59A}.Release|arm64.Build.0 = Release|arm64
-		{04AD1307-1C07-4848-93FF-76005FDCC59A}.Release|x64.ActiveCfg = Release|x64
-		{04AD1307-1C07-4848-93FF-76005FDCC59A}.Release|x64.Build.0 = Release|x64
-		{04AD1307-1C07-4848-93FF-76005FDCC59A}.Release|x86.ActiveCfg = Release|Win32
-		{04AD1307-1C07-4848-93FF-76005FDCC59A}.Release|x86.Build.0 = Release|Win32
 		{BAB6725B-CA6D-42F6-9197-9CC91C6E951C}.Debug|arm64.ActiveCfg = Debug|arm64
 		{BAB6725B-CA6D-42F6-9197-9CC91C6E951C}.Debug|arm64.Build.0 = Debug|arm64
 		{BAB6725B-CA6D-42F6-9197-9CC91C6E951C}.Debug|x64.ActiveCfg = Debug|x64
