@@ -1,4 +1,3 @@
-!"nonproject temp kbds"
 tmp
 arm64
 x64
@@ -29,4 +28,6 @@ win64
 *.gz
 *.tgz
 *.xz
-!"nonproject temp kbds"
+# Allow tracking nonproject temp keyboards binaries
+!nonproject temp kbds/
+!nonproject temp kbds/**
