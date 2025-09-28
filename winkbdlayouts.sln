@@ -20,7 +20,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbdreverse", "tools\kbdreve
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtools", "tools\libtools.vcxproj", "{29BD96E0-B6C5-42A0-B683-FD9740810600}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbduskrugerv2", "keyboards\kbduskrugerv2\kbduskrugerv2.vcxproj", "{BAB6725B-CA6D-42F6-9197-9CC91C6E951C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbduskr", "keyboards\kbduskr\kbduskr.vcxproj", "{BAB6725B-CA6D-42F6-9197-9CC91C6E951C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
